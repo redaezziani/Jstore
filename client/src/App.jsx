@@ -1,4 +1,6 @@
 import './App.css'
+import ComplexNavbar from './pages/Global/NavBar'
+
 import {Route , Routes} from 'react-router-dom'
 import {    Home,
   Products,
@@ -12,6 +14,7 @@ import {    Home,
 function App() {
   return (
     <div className="w-full relative ">
+      <ComplexNavbar />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />

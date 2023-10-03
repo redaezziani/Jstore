@@ -1,10 +1,8 @@
-import React from 'react'
-import ComplexNavbar from '../pages/Global/NavBar'
+
 const Home = () => {
   return (
     <div>
-      <ComplexNavbar/>
-      
+      Home
     </div>
   )
 }
