@@ -220,7 +220,7 @@ export default function ComplexNavbar() {
   }, []);
  
   return (
-    <Navbar className="mx-auto max-w-screen-xl p-2 rounded-none shadow-none  lg:pl-6">
+    <Navbar className=" max-w-screen-xl fixed p-2 rounded-none shadow-none  lg:pl-6">
       <div className="relative mx-auto flex items-center text-blue-gray-900">
         <Typography
           as="a"

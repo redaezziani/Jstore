@@ -13,7 +13,7 @@ import {    Home,
 } from './utils/Routes'
 function App() {
   return (
-    <div className="w-full relative ">
+    <div className="w-full relative flex items-center flex-col ">
       <ComplexNavbar />
       <Routes>
         <Route path="/" element={<Home/>} />
