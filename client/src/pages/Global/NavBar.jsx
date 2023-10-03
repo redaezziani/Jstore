@@ -161,16 +161,7 @@ function NavListMenu() {
  
 // nav list component
 const navListItems = [
-    /*
-            <Route path="/" element={<Home/>} />
-        <Route path="/products" element={<Products/>} />
-        <Route path="/products/:id" element={<Product/>} />
-        <Route path="/done" element={<Done/>} />
-        <Route path="/singin" element={<Singin/>} />
-        <Route path="/singup" element={<Singup/>} />
-        <Route path="/faild" element={<Faild/>} />
-        <Route path="*" element={<Notfound/>} />
-    */
+
   {
     label: "Home",
     icon: UserCircleIcon,
@@ -220,11 +211,11 @@ export default function ComplexNavbar() {
   }, []);
  
   return (
-    <Navbar className=" max-w-screen-xl fixed p-2 rounded-none shadow-none  lg:pl-6">
+    <Navbar className=" max-w-screen-xl  border-red-500 border-e-0 border-s-0 border-b-2 fixed p-2 rounded-none shadow-none  lg:pl-6">
       <div className="relative mx-auto flex items-center text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
+          href="/"
           className="mr-4 ml-2   cursor-pointer py-1.5 font-semibold text-gray-800"
           style={{ fontSize: "1.5rem" }}
         >
